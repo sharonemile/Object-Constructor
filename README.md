@@ -1,7 +1,9 @@
 # JAVA CLASS WITH CONSTRUCTORS
 
 package com.sharon;
+
 public class car {
+
 	String brand ;
 	String model ;
 	int year;
