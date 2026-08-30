@@ -1,12 +1,11 @@
 # JAVA CLASS WITH CONSTRUCTORS
 
 package com.sharon;
-
 public class car {
 	String brand ;
 	String model ;
 	int year;
-	
+
 	public car() {
 		this.brand= "Unknown";
 		this.model= "Generic Model";
@@ -14,7 +13,6 @@ public class car {
 		System.out.println("Default Constructor called : created a generic car.");
 		
 	} 
-	
 	
 	public car(String brand , String model, int year) {
 		this.brand = brand;
